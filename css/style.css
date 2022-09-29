@@ -1,0 +1,30 @@
+*{
+    text-align: center;
+}
+body{
+    /*background-image: url(../img/background.jpg);*/
+    background-color: rgb(59, 80, 52);
+  
+   
+}
+
+.main-container{  
+    border: 5px solid rgb(92, 2, 110);
+    margin: 2rem;    
+    border-radius: 20px;
+    background-color: rgb(237, 181, 224);
+    width: fit-content;
+    display: inline-block;
+    
+}
+
+article{
+    border: 6px solid salmon;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2rem;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(193, 224, 250);    
+}
+
