@@ -26,6 +26,7 @@ body{
 .codificar{
     margin: 2rem;
     background-color: rgb(250, 209, 243);
+   
 }
 
 .decodificar{
@@ -38,13 +39,20 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
+    
 }
 
 /*Es para quitarle el coso feo que hace que se alargue, pero se ve feo*/
 textarea{
     resize: none;
+    
 }
 
 #mensaje{
     font-size: 1.2rem;
+}
+
+#resultado{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
