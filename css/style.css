@@ -27,6 +27,7 @@ body{
     background-color: rgb(237, 181, 224);
     display: inline-block;
     
+    
 }
 
 article{
@@ -36,6 +37,8 @@ article{
     margin: 2rem;
     display: inline-block;
     text-align: center;
-    background-color: rgb(193, 224, 250);    
+    background-color: rgb(193, 224, 250); 
+     
 }
+
 
