@@ -1,0 +1,80 @@
+*{
+    padding: 0.3rem;
+    text-align: center;
+}
+
+/*letras mass cute*/
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:larger;
+  
+}
+
+body{
+    /*background-image: url(../img/background.jpg);*/
+    background-color: rgb(110, 129, 204);
+    background-size: cover;
+   
+}
+
+.main-container{  
+    padding: 30px;     
+    box-shadow: 8px 8px 35px 0px rgba(25, 17, 53, 0.75);
+     
+    width: 50%;   
+    display: inline-block;    
+    border: 5px solid rgb(10, 27, 89);
+    margin: 2rem;    
+    border-radius: 20px;
+    background-color: rgb(186, 144, 200);
+    
+}
+
+.cifrar{
+    margin: 2rem;
+    background-color: rgb(250, 209, 243);
+   
+}
+
+.descifrar{
+    margin: 2rem;
+    background-color: rgb(250, 209, 243);
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+    
+}
+
+/*Es para quitarle el coso feo que hace que se alargue, pero se ve feo*/
+textarea{
+    resize: none;
+    
+}
+
+#txtC, #txtC2{
+    font-size: 1.2rem;
+}
+
+
+#res, #res2{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#resultado2{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}

@@ -2,7 +2,7 @@
 window.addEventListener("load", inicio, true);
 //ahora hay que obtener cada valor del html
 function inicio(){
-    document.getElementById("mensaje").addEventListener("keyup",function(){
+    document.getElementById("mensaje").addEventListener("keyup",function (){
         this.value = this.value.toUpperCase()
     },true);
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado viggenere</title>
+    <link rel="stylesheet" href="../Cifrado Viggenere/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>CIFRADO VIGGENERE</h1>
+        </header>
+        <div class="cifrar">
+            <form>
+            <h2>CIFRAR</h2>
+            <p>Ingresa tu mensaje:</p>
+            <textarea id="txtC" rows="3" placeholder="Escribe..."></textarea>            
+            <p>Ingresa la clave:</p>
+            <input type="text" id="txtClave" placeholder="Clave:">
+            <div class="botones">               
+                    <button style="margin-right:2.5rem" type="button"  onclick="longitudCifrar()">Cifrar</button>
+                    <input type="reset" value="Limpiar"/>                  
+            </div>
+            <textarea id="res" rows="3" readonly="readonly" placeholder="RESULTADO"></textarea>
+            
+        </form>
+        </div>
+
+        <div class="descifrar">
+            <form>
+            <h2>DESCIFRAR</h2>
+            <p>Ingresa el código:</p>
+            <textarea id="txtC2" placeholder="Escriba..."></textarea>   
+            <p>Ingresa la clave:</p>
+            <input type="text" id="txtClave2" placeholder="Clave:">         
+            <div class="botones">
+                <button style="margin-right:2.5rem" id="idPrueba"  type="button" onclick="longitudDescifrar()">Descifrar</button>
+                <input type="reset" value="Limpiar"> 
+            </div>
+            <textarea id="res2" rows="3" readonly="readonly" placeholder="RESULTADO"></textarea>
+                      
+        </form>
+        </div>
+
+        <a href="../index.html"><button>Volver</button></a>      
+
+
+    </div>
+    <script src="../Cifrado Viggenere/js/script.js"></script>
+    
+</body>
+</html>

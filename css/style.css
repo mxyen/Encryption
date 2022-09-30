@@ -1,6 +1,18 @@
 *{
     text-align: center;
 }
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.7rem;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2rem;
+
+}
+
 body{
     /*background-image: url(../img/background.jpg);*/
     background-color: rgb(59, 80, 52);
@@ -13,7 +25,6 @@ body{
     margin: 2rem;    
     border-radius: 20px;
     background-color: rgb(237, 181, 224);
-    width: fit-content;
     display: inline-block;
     
 }
